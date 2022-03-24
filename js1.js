@@ -22,7 +22,7 @@ let loadImage = (src, callback) => {
   img.src = src;
 };
 let imagepath = (frameNumber, animation) => {
-  return `C:/Users/saini/OneDrive/Documents/Full Stack/HTML/canvas/images/${animation}/${frameNumber}.png`;
+  return `images/${animation}/${frameNumber}.png`;
 };
 let frames = {
   idle: [1, 2, 3, 4, 5, 6, 7, 8],
